@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#139d7f;
+    border: 5px solid rgb(255, 255, 255);
+    width: 100%;
+    height: 200px;
+    margin-top: 1rem;
+    padding: 0em 2em;
+    color: #07362c;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+.corpo{
+   
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2px;
+    padding: 0.5em ;
+}
+
+.titulo1{
+    text-align: center;
+    line-height: 2em;
+   background-color: #07362c;
+ 
+   
+    
+    width: 1485px;
+    height: 430px;
+    border:5px solid #fff;
+
+}
+
+.vale{
+    border-bottom: 2px solid #fff;
+    color:#07362c;
+   
+    background-color: rgb(61, 187, 135);
+    font-weight: bold;
+
+}
+
+h3{
+    color: #07362c;
+    background-color: #139d7f;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.valores{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+
+}
+
+
+p{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.res1{
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 5em;
+    background-color: #09211b;
+    margin-top: 3em;
+    height: 200px;
+    line-height: 10px;
+}
+
+button{
+    color: #07362c;
+    font-weight: bold;
+    width: 70px;
+    height: 35px;
+    margin-top: 20px;
+    margin-bottom: -5px;
+}
+
+.res{
+    color: #fff;
+    margin-top: 6em;
+    background-color: #09211b;
+    height: 150px;
+    line-height: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+   display: block;
+}
+
+.rodape{
+    color: #fff;
+    text-align: center;
+    margin: em 2em;
+    background-color: #139d7f;
+    height: 50px;
+    width: 100%;
+    line-height: 50px;
+    border:5px solid #fff;
+
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 50px;
+    height: 30px;
+   
+}
+@media (max-width:1280px){
+    
+     .container{
+        width: auto;
+        text-align: center;
+     }  
+    
+
+    .valores{
+        display: block;
+        justify-content: center;
+        padding-bottom: 2em;
+    }
+    button{
+        margin-top: 5em;
+    }
+}
+
+@media (max-width:1280px){
+    .titulo1{
+         width:auto;
+    }
+
+    .res{
+        height:500px;
+    }
+}
+
